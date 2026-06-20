@@ -1,0 +1,13 @@
+def add_amounts(amount1, amount2):
+    """Return the sum of two amounts."""
+    return amount1 + amount2
+
+
+if __name__ == "__main__":
+    try:
+        a = float(input("Enter first amount: "))
+        b = float(input("Enter second amount: "))
+        total = add_amounts(a, b)
+        print(f"Total amount: {total}")
+    except ValueError:
+        print("Please enter valid numeric amounts.")

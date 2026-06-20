@@ -1,0 +1,8 @@
+-- Add two amounts in SQL
+DECLARE @amount1 DECIMAL(10,2) = 123.45;
+DECLARE @amount2 DECIMAL(10,2) = 67.89;
+
+SELECT
+    @amount1 AS Amount1,
+    @amount2 AS Amount2,
+    @amount1 + @amount2 AS TotalAmount;
