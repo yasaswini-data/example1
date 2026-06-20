@@ -1,0 +1,7 @@
+# Calculate average of a few items
+values = [10, 20, 30, 40, 50]
+if values:
+    average = sum(values) / len(values)
+    print("Average:", average)
+else:
+    print("No items to average.")
